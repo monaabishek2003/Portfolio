@@ -56,30 +56,6 @@ import {
   ];
   
   const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
-    // {
-    //   name: "React JS",
-    //   icon: reactjs,
-    // },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "Express",
-    //   icon: express,
-    // },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -99,6 +75,29 @@ import {
     {
       name: "Python",
       icon: python,
+    },   {
+      name: "HTML",
+      icon: html,
+    },
+    {
+      name: "CSS",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "ReactJS",
+      icon: reactjs,
+    },
+    {
+      name: "NodeJS",
+      icon: nodejs,
+    },
+    {
+      name: "Expressjs",
+      icon: express,
     },
   ];
   

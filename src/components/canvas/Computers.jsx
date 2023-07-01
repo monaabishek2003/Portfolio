@@ -25,30 +25,30 @@ const Computers = ({isMobile}) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile? 0.6:0.75}
-        position={isMobile ? [0,-4,-0.7]:[0,-4.25,-1.5]}
-        rotation={isMobile ? [-0.01,0.8,-0.1]:[-0.01,-0.2,-0.1]}
+        scale={0.67}
+        position={[0,-4,-0.7]}
+        rotation={[-0.01,-0.2,-0.1]}
       />
     </mesh>
   )
 }
 
 const ComputersCanvas = () => {
-  const [isMobile,setisMobile] = useState(false);
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width:500px)');
+  // const [isMobile,setisMobile] = useState(false);
+  // useEffect(() => {
+  //   const mediaQuery = window.matchMedia('(max-width:500px)');
     
-    setisMobile(mediaQuery.matches);
+  //   setisMobile(mediaQuery.matches);
     
-    const handleMediaQueryChange = (event)=>{
-      setisMobile(event.matches);
-    }
-    mediaQuery.addEventListener('change',handleMediaQueryChange);
+  //   const handleMediaQueryChange = (event)=>{
+  //     setisMobile(event.matches);
+  //   }
+  //   mediaQuery.addEventListener('change',handleMediaQueryChange);
 
-    return () => {
-      mediaQuery.removeEventListener('change',handleMediaQueryChange);
-    }
-  })
+  //   return () => {
+  //     mediaQuery.removeEventListener('change',handleMediaQueryChange);
+  //   }
+  // })
   return(
     <Canvas
       frameloop="demand"
@@ -63,7 +63,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI/2}
           minPolarAngle={Math.PI/2}    
         />
-        <Computers isMobile={isMobile}/>
+        <Computers/>
       </Suspense>
       <Preload all/>
     </Canvas>

@@ -10,9 +10,9 @@ const App = () => {
           <Hero/>
         </div>
         <About id="About"/>
-        {/* <Experience/> */}
+        <Experience/>
         <Tech/>
-        <Works/>
+        <Works id="projects"/>
         {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact/>

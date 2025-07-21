@@ -27,7 +27,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer  '>
             Mona Abishek A &nbsp;
-            <span className='sm:block text-[16px] hidden'> | Aspiring Engineer</span>
+            <span className='sm:block text-[16px] hidden'> | Aspiring Developer</span>
           </p>
         </Link>
         {/* header sections in the navbar */}

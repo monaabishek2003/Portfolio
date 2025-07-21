@@ -35,8 +35,8 @@ const Hero = () =>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF] sm:text-[65px] text-[50px]'><br className='sm:block hidden' />Mona Abishek A</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Crafting web experiences, Python development,<br className='sm:block hidden' /> and competitive programming skills.
+          <p className={`${styles.heroSubText} mt-2 text-white-100 mb-3`}>
+            Full-stack developer <br className='sm:block hidden' />Passionate about building impactful tech solutions.
           </p>
         </div>
       </div>

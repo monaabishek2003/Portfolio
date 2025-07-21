@@ -45,25 +45,19 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-8xl leading-[30px]" 
     >
-      As an ambitious and driven pre-final year student pursuing Electrical and 
-      Electronics Engineering at SSN College of Engineering, I am Mona Abishek A. 
-      Fueled by a deep passion for web development, I specialize in both frontend 
-      and backend technologies, including HTML, CSS, JavaScript, Node.js, MongoDB,
-      React, and Express. With an unwavering commitment to excellence, I 
-      meticulously craft immersive digital experiences, seamlessly integrating 
-      external services and architecting scalable RESTful APIs. My proficiency 
-      extends to Python, where I leverage libraries like Tkinter, pandas, and NumPy
-      to engineer efficient, data-driven applications. Recently venturing into 
-      competitive programming using C++, I embrace its intellectual challenges,
-      relentlessly sharpening my problem-solving skills. Join me on this ambitious
-      journey, where innovation meets dedication, as we redefine tomorrow's digital
-      landscape.
+I'm Mona Abishek, an aspiring full-stack developer and problem solver passionate about building impactful digital experiences. Currently working as an Associate Engineer at AstraZeneca, I specialize in developing scalable web applications, integrating complex APIs, and creating tools that reduce manual effort for scientific workflows.
+
+My journey blends engineering curiosity with hands-on development — from crafting full-stack platforms like Pixshare and Melthify, to innovating AI-powered solutions using AWS Bedrock. I enjoy working across the stack, optimizing performance, and exploring modern technologies like GraphQL, GitHub Actions, and scalable cloud architectures.
+
+Beyond code, I thrive in collaborative environments, whether it’s organizing tech events, contributing to open-source, or participating in global hackathons.
+
+Always learning. Always building. Always up for the next challenge.
     </motion.p>
-    <div className='mt-20 flex flex-wrap justify-evenly  gap-10'>
+    {/* <div className='mt-20 flex flex-wrap justify-evenly  gap-10'>
     {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-    </div>
+    </div> */}
     </>
   )
 }

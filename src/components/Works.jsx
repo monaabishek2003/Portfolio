@@ -70,9 +70,6 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.heroSubText}>
-          My Work
-        </p>
         <h2 className={styles.sectionHeadText}>
           Projects
         </h2>
@@ -99,4 +96,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works,'work');
+export default SectionWrapper(Works,'projects');

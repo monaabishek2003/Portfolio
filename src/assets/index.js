@@ -25,7 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import az from "./company/az.png";
+import azlogo from "./company/azlogo.png";
 
 
 import stock from "./stock.jpg";
@@ -33,7 +33,7 @@ import pixshare from "./pixshare.png";
 import melthify from "./melthify.png"
 
 export {
-  az,
+  azlogo,
   logo,
   backend,
   creator,

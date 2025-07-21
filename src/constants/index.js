@@ -19,7 +19,7 @@ import {
   melthify,
   pixshare,
   stock,
-  az
+  azlogo
 } from "../assets";
 
 export const navLinks = [
@@ -107,7 +107,7 @@ const experiences = [
   {
     title: "Associate Engineer",
     company_name: "AstraZeneca",
-    icon: az,
+    icon: azlogo,
     iconBg: "#E6DEDD",
     date: "July 2024 – Present",
     points: [
@@ -121,7 +121,7 @@ const experiences = [
   {
     title: "Intern – Junior Engineer",
     company_name: "AstraZeneca",
-    icon: az,
+    icon: azlogo,
     iconBg: "#E6DEDD",
     date: "Feb 2024 – July 2024",
     points: [
